@@ -5,12 +5,13 @@ import java.util.ArrayList;
 
 public class Day1{
     public static void main(String[] args){
-        ArrayList<Integer> values = new ArrayList<>();
-        values = loadData("input.txt");
+        ArrayList<Integer> values  = loadData("input.txt");
+
         for ( int i = 0; i < values.size(); i++ ){
             int required =  2020 - values.get(i);
+
             if ( values.contains(required)  && (required != values.get(i))) {
-                System.out.println( required * values.get(i) );
+                System.out.println( required * values.get(i));
                 break;
             } else if ( required == 1010){
                 System.out.println(1010*2);
@@ -21,6 +22,7 @@ public class Day1{
 
     public static ArrayList<Integer> loadData (String fileName){
         ArrayList<Integer> values = new ArrayList<>();
+
         try {
             File myFile = new File(fileName);
             Scanner scanner = new Scanner(myFile);
