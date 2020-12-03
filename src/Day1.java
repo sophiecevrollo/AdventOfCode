@@ -1,27 +1,30 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Scanner;
-import java.util.ArrayList;
 
 public class Day1{
     public static void main(String[] args){
-        ArrayList<Integer> values  = loadData("input.txt");
-
-        for ( int i = 0; i < values.size(); i++ ){
-            int required =  2020 - values.get(i);
-
-            if ( values.contains(required)  && (required != values.get(i))) {
-                System.out.println( required * values.get(i));
-                break;
-            } else if ( required == 1010){
-                System.out.println(1010*2);
-                break;
+        HashSet<Integer> values  = loadData("inputs/day1.txt");
+        Iterator<Integer> i = values.iterator();
+        boolean solved = false;
+        while(i.hasNext() && !solved)
+        {
+            int current = i.next();
+            int required = 2020 - current;
+            if (required == 1010){
+                System.out.println(2020);
+                solved = true;
+            } else if(values.contains(required)){
+                System.out.println( required * current);
+                solved = true;
             }
         }
     }
 
-    public static ArrayList<Integer> loadData (String fileName){
-        ArrayList<Integer> values = new ArrayList<>();
+    public static HashSet<Integer> loadData (String fileName){
+        HashSet<Integer> values = new HashSet<>();
 
         try {
             File myFile = new File(fileName);
