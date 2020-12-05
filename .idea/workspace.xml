@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4861f9d0-7a76-4274-95e9-95b95ac30939" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AoC/Day5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AoC/Day5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoC/Day3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AoC/Day3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day3_Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day3_Part2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,11 +53,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Day3.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+                <state relative-caret-position="522">
+                  <caret line="36" column="5" lean-forward="true" selection-start-line="5" selection-end-line="36" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Day3_Part2.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="816">
+                  <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -106,8 +117,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/inputs/day3.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+                <state relative-caret-position="1044">
+                  <caret line="322" column="31" selection-start-line="322" selection-start-column="31" selection-end-line="322" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -183,16 +194,17 @@
         <option value="$PROJECT_DIR$/src/Day5_Part2.java" />
         <option value="$PROJECT_DIR$/src/Day5.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/inputs/day3.txt" />
         <option value="$PROJECT_DIR$/src/Day3.java" />
+        <option value="$PROJECT_DIR$/inputs/day3.txt" />
+        <option value="$PROJECT_DIR$/src/Day3_Part2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1912" />
+    <option name="y" value="-472" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,7 +244,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607175711167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1607179806306" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -257,16 +269,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Day3">
-    <configuration name="Day1_Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day1_Part2" />
+  <component name="RunManager" selected="Application.Day3_Part2">
+    <configuration name="Day3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3" />
       <module name="AoC" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day3" />
+    <configuration name="Day3_Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day3_Part2" />
       <module name="AoC" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Day3_Part2" />
         <item itemvalue="Application.Day3" />
         <item itemvalue="Application.Day5" />
         <item itemvalue="Application.Day4_Part2" />
         <item itemvalue="Application.Day4" />
-        <item itemvalue="Application.Day1_Part2" />
       </list>
     </recent_temporary>
   </component>
@@ -317,18 +329,18 @@
       <workItem from="1606905366620" duration="15110000" />
       <workItem from="1606992316477" duration="12364000" />
       <workItem from="1607079384983" duration="22526000" />
-      <workItem from="1607155398782" duration="13430000" />
+      <workItem from="1607155398782" duration="17252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68342000" />
+    <option name="totallyTimeSpent" value="72164000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-472" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49468085" visible="true" weight="0.114072494" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49468085" visible="true" weight="0.20656371" />
       <window_info id="Structure" order="1" sideWeight="0.5053192" side_tool="true" weight="0.114072494" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,7 +349,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32912722" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.404837" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.2149637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,7 +357,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32912722" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32912722" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32886654" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.20925342" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32912722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -561,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Day3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="522">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -571,8 +583,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inputs/day3.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="1044">
+          <caret line="322" column="31" selection-start-line="322" selection-start-column="31" selection-end-line="322" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Day3_Part2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
