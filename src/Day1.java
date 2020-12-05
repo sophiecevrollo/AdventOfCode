@@ -3,10 +3,11 @@ import java.io.FileNotFoundException;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Day1{
     public static void main(String[] args){
-        HashSet<Integer> values  = loadData("inputs/day1.txt");
+        Set<Integer> values  = loadData("inputs/day1.txt");
         Iterator<Integer> i = values.iterator();
         boolean solved = false;
         while(i.hasNext() && !solved)
@@ -23,8 +24,8 @@ public class Day1{
         }
     }
 
-    public static HashSet<Integer> loadData (String fileName){
-        HashSet<Integer> values = new HashSet<>();
+    public static Set<Integer> loadData (String fileName){
+        Set<Integer> values = new HashSet<>();
 
         try {
             File myFile = new File(fileName);

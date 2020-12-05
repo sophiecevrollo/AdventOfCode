@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Day2 {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         int valid = 0;
         try {
             File myFile = new File("inputs/day2.txt");
@@ -30,5 +30,5 @@ public class Day2 {
             e.printStackTrace();
         }
         System.out.println(valid);
-        }
+    }
 }
