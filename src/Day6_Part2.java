@@ -1,41 +1,33 @@
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Day6_Part2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Map<Character, Integer> groupAnswers = new HashMap<>();
         int sumCounts = 0;
         int groupSize = 0;
 
-        try {
-            File myFile = new File("inputs/day6.txt");
-            Scanner scanner = new Scanner(myFile);
-            while (scanner.hasNext()) {
-                String[] lines = scanner.nextLine().split("\n\n\n\n");
-                if( lines[0].length() != 0) {
-                    groupSize++;
-                    for (String part : lines) {
-                        for ( int i = 0; i < part.length(); i++){
-                            if ( groupAnswers.get(part.charAt(i))!= null) {
-                                groupAnswers.put(part.charAt(i), groupAnswers.get(part.charAt(i))+1);
-                            } else {
-                                groupAnswers.put(part.charAt(i), 1);
-                            }
-                        }
+        File myFile = new File("inputs/day6.txt");
+        Scanner scanner = new Scanner(myFile);
+        while (scanner.hasNext()) {
+            String line = scanner.nextLine();
+            if( line.length() != 0) {
+                groupSize++;
+                for ( int i = 0; i < line.length(); i++){
+                    if ( groupAnswers.get(line.charAt(i))!= null) {
+                        groupAnswers.put(line.charAt(i), groupAnswers.get(line.charAt(i))+1);
+                    } else {
+                        groupAnswers.put(line.charAt(i), 1);
                     }
-                } else {
-                    sumCounts += countAnswers(groupAnswers, groupSize);
-                    groupAnswers.clear();
-                    groupSize = 0;
                 }
+            } else {
+                sumCounts += countAnswers(groupAnswers, groupSize);
+                groupAnswers.clear();
+                groupSize = 0;
             }
-            sumCounts += countAnswers(groupAnswers, groupSize);
-            scanner.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("Error loading in data");
-            e.printStackTrace();
         }
+        sumCounts += countAnswers(groupAnswers, groupSize);
+        scanner.close();
         System.out.println(sumCounts);
     }
 

@@ -6,7 +6,7 @@ public class Day4 {
     public static void main(String[] args) {
 
         Set<String> required = new HashSet<>(Arrays.asList("byr", "iyr","eyr","hgt","hcl","ecl","pid"));
-        Set<String> passport = new HashSet<> ();
+        Set<String> passport = new HashSet<>();
         int valid = 0;
 
         try {

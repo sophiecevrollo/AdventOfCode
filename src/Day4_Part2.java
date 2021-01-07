@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Day4_Part2 {
     public static void main(String[] args) {
-        Map<String, Object> passport = new HashMap<> ();
+        Map<String, Object> passport = new HashMap<>();
         Map<String, Object> required = new HashMap<String, Object>() {{
             put("byr", new Integer[] { 1920, 2002});
             put("iyr",  new Integer[] { 2010, 2020});
